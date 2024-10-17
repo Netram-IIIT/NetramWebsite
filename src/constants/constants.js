@@ -2,7 +2,7 @@
 import satyam from '../assets/teampics/SatyamRaj.jpeg'
 // import team2 from '../assets/teampics/SatyamRaj.jpeg'
 // import team3 from '../assets/teampics/SatyamRaj.jpeg'
-// import team4 from '../assets/teampics/SatyamRaj.jpeg'
+import ankur from '../assets/teampics/ankur1.jpg'
 // import team5 from '../assets/teampics/SatyamRaj.jpeg'
 import ritesh from '../assets/teampics/ritesh.png'
 
@@ -63,7 +63,7 @@ export const teamMembers = [
       id: 4,
       name: 'Ankur Dwivedi',
       description: 'Website Developer',
-      imageUrl: 'https://via.placeholder.com/150?text=Bob+Brown',
+      imageUrl: ankur,
     },
     {
       id: 5,
