@@ -1,10 +1,10 @@
 // src/constants/constants.js
 import satyam from '../assets/teampics/SatyamRaj.jpeg'
-// import team2 from '../assets/teampics/SatyamRaj.jpeg'
-// import team3 from '../assets/teampics/SatyamRaj.jpeg'
+import aditya from '../assets/teampics/aditya.jpeg'
+import nidhi from '../assets/teampics/nidhi.jpeg'
 import ankur from '../assets/teampics/ankur1.jpg'
-// import team5 from '../assets/teampics/SatyamRaj.jpeg'
-import ritesh from '../assets/teampics/ritesh.png'
+import ritesh from '../assets/teampics/ritesh2.png'
+import roshan from '../assets/teampics/roshan.jpeg'
 
 export const features = [
     {
@@ -51,13 +51,13 @@ export const teamMembers = [
       id: 2,
       name: 'Aditya Kumar',
       description: 'Machine Learning Model Creator',
-      imageUrl: 'https://via.placeholder.com/150?text=Jane+Smith',
+      imageUrl: aditya,
     },
     {
       id: 3,
       name: 'Nidhi Satyapriya',
       description: 'Machine Learning Model Creator',
-      imageUrl: 'https://via.placeholder.com/150?text=Alice+Johnson',
+      imageUrl: nidhi,
     },
     {
       id: 4,
@@ -67,16 +67,16 @@ export const teamMembers = [
     },
     {
       id: 5,
-      name: 'Roshan',
-      description: 'Website Developer',
-      imageUrl: 'https://via.placeholder.com/150?text=Bob+Brown',
-    },
-    {
-      id: 6,
       name: 'Ritesh Raj Tiwari',
       description: 'Website Developer',
       imageUrl: ritesh,
     },
-    // Add more team members as needed
+    {
+      id: 6,
+      name: 'Roshan',
+      description: 'Website Developer',
+      imageUrl: roshan,
+    },
+    
   ];
   
