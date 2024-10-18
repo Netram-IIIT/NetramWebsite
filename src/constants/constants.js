@@ -6,40 +6,42 @@ import ankur from '../assets/teampics/ankur1.jpg'
 import ritesh from '../assets/teampics/ritesh2.png'
 import roshan from '../assets/teampics/roshan.jpeg'
 
+import ImageDetection from "../assets/featureImages/main.png"
+import audio from "../assets/featureImages/audio.jpg"
+import facedata from "../assets/featureImages/facedata.jpg"
+import geolocation from "../assets/featureImages/geolocation.jpg"
+ 
 export const features = [
     {
       id: 1,
-      title: "Feature 1",
-      description: "This is the description of feature 1.",
-      imageUrl: "https://via.placeholder.com/300x200.png?text=Feature+1",
-      link: "/feature1", // Add link if necessary
+      title: "Real-time traffic detection",
+      description: "Analyzes 49 traffic objects including cars, people, and scooters in real-time for enhanced situational awareness.",
+      imageUrl: ImageDetection,
+      status: "Completed"
     },
     {
       id: 2,
-      title: "Feature 2",
-      description: "This is the description of feature 2.",
-      imageUrl: "https://via.placeholder.com/300x200.png?text=Feature+2",
-      link: "/feature2",
+      title: "Audio feedback",
+      description: "Provides immediate audio alerts about nearby objects based on real-time traffic analysis for improved safety.",
+      imageUrl: audio,
+      status: "In Progress"
     },
     {
       id: 3,
-      title: "Feature 3",
-      description: "This is the description of feature 3.",
-      imageUrl: "https://via.placeholder.com/300x200.png?text=Feature+3",
-      link: "/feature3",
+      title: "Geolocation tagging",
+      description: "Offers real-time navigation feedback to ensure users reach their specified destinations safely and efficiently.",
+      imageUrl: geolocation,
+      status: "In Progress"
     },
     {
       id: 4,
-      title: "Feature 4",
-      description: "This is the description of feature 4.",
-      imageUrl: "https://via.placeholder.com/300x200.png?text=Feature+4",
-      link: "/feature4",
+      title: "Dynamic face data saving",
+      description: "Stores facial data of new acquaintances, enabling future recognition and notification for enhanced social interaction.",
+      imageUrl: facedata,
+      status: "In Progress"
     },
-  ];
-  
+];
 
-
-  // src/constants/constants.js
 export const teamMembers = [
     {
       id: 1,
@@ -77,6 +79,4 @@ export const teamMembers = [
       description: 'Website Developer',
       imageUrl: roshan,
     },
-    
-  ];
-  
+];
