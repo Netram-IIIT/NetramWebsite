@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className='min-h-screen bg-gradient-to-r from-cyan-500 to-blue-500 flex items-center justify-center py-20'>
+    <div className='min-h-screen bg-gradient-to-r from-cyan-500 to-blue-500 flex items-center justify-center py-20' id='about'>
       {/* About Section as a Card */}
       <section className='bg-white p-12 md:p-16 rounded-2xl shadow-2xl max-w-6xl mx-auto relative overflow-hidden'>
         {/* Background Image */}

@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"; 
 import { features } from '../constants/constants';
 
 function FeatureSection() {
@@ -14,7 +14,7 @@ function FeatureSection() {
           {features.map((feature) => (
             <div
               key={feature.id}
-              className='bg-gray-800 rounded-xl shadow-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-2xl'
+              className='bg-gray-800 rounded-xl shadow-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-2xl hover:bg-gradient-to-r from-navy-900 via-purple-800 to-pink-600'
             >
               <img
                 src={feature.imageUrl}

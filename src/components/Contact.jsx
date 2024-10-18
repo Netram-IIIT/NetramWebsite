@@ -1,5 +1,6 @@
 import React from "react";
 import { teamMembers } from '../constants/constants'; // Import team members from constants
+import { FiMail } from 'react-icons/fi';
 
 const Contact = () => {
   return (
@@ -44,12 +45,13 @@ const Contact = () => {
               'careers@netram.com',
               'press@netram.com',
             ].map((email, index) => (
-              <div key={index}>
+              <div key={index} className='flex justify-center'>
                 <a
                   href={`mailto:${email}`}
-                  className='block bg-cyan-600 hover:bg-cyan-500 text-white py-2 px-4 rounded-lg transition duration-300'
+                  className='flex items-center bg-cyan-600 hover:bg-cyan-500 text-white py-2 px-4 rounded-lg transition duration-300'
                 >
-                  {email}
+                  <FiMail className='text-white text-xl mr-2' />
+                  <span>{email}</span>
                 </a>
               </div>
             ))}

@@ -40,3 +40,11 @@
 .read-the-docs {
   color: #888;
 }
+
+
+
+
+/* Add this to your global CSS to prevent the navbar from covering content */
+body {
+  padding-top: 64px; /* Adjust according to the height of your navbar */
+}
