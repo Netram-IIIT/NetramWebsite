@@ -24,7 +24,7 @@ const About = () => {
           {/* Text Section */}
           <div className='w-full md:w-1/2 px-6 text-center md:text-left'>
             <h2 className='text-4xl md:text-5xl font-extrabold mb-4 text-blue-500 leading-tight'>
-              About <span className='text-cyan-600'>Netram</span>
+              About Netram
             </h2>
             <div className='text-gray-700 mb-4 text-lg leading-relaxed space-y-4'>
               <p>
