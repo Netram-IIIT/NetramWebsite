@@ -7,6 +7,7 @@ import FeatureSection from "./components/FeatureSection";
 import HomePage from "./components/HomePage";
 import About from "./components/About ";
 import Contact from "./components/Contact";
+import LiveDemonstration from "./components/LiveDemonstration";
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
           {/* <Route path='/about' element={<About />} /> */}
         </Routes>
       </Router>
+      <div className="">
+        <LiveDemonstration />
+      </div>
       <div id='contact'>
         <Contact />
       </div>
