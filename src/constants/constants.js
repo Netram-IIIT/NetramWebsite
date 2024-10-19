@@ -6,7 +6,7 @@ import ankur from '../assets/teampics/ankur1.jpg'
 import ritesh from '../assets/teampics/ritesh2.png'
 import roshan from '../assets/teampics/roshan.jpeg'
 
-import ImageDetection from "../assets/featureImages/main.png"
+import ImageDetection from "../assets/featureImages/main.jpg"
 import audio from "../assets/featureImages/audio.jpg"
 import facedata from "../assets/featureImages/facedata.jpg"
 import geolocation from "../assets/featureImages/geolocation.jpg"
