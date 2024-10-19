@@ -14,7 +14,7 @@ const About = () => {
           <div className='w-full md:w-1/2 mb-8 md:mb-0 flex justify-center'>
             <div className='bg-white rounded-lg shadow-lg overflow-hidden'>
               <img
-                src='src/assets/about.png'
+                src='about.png'
                 alt='Netram - Enhancing perception for the visually impaired'
                 className='w-full transition-transform duration-500 hover:scale-105 hover:shadow-xl'
               />
